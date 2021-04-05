@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV / Movie Search</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TV / Movie Search</h1>
+    <div id="wrap">
+        <form id="searchForm">
+            <input type="text" id="searchTerm" placeholder="TV Show Title" name="query">
+            <button id="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+    
+
+    <!-- <div id="card">
+        <div id="container">
+        </div>
+    </div> -->
+
+    <div id="show">
+        <h2 id="title"></h2>
+        <p id="summary"></p>
+
+        <section id="infoCard">
+            <p id="site"></p>
+            <p id="status"></p>
+            <p id="score"></p>
+            <p id="type"></p>
+            <p id="language"></p>
+            <p id="generes"></p>
+        </section>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
