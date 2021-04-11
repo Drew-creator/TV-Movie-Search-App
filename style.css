@@ -6,7 +6,6 @@ h1 {
 body{
     background-image: url("new.jpg");
     background-size: cover;
-    color: whitesmoke;
 }
 
 #searchForm {
@@ -32,9 +31,11 @@ body{
     margin: 10px;
   }
   
+
 #card:hover {
     box-shadow: 0 8px 16px 0 rgba(197, 196, 196, 0.2);
 }
+
 
 #container {
     padding: 2px 16px;
@@ -44,7 +45,7 @@ body{
     width: 100%;
     position: relative;
     display: flex;
-  }
+}
   
 #searchTerm {
     width: 100%;
@@ -79,7 +80,23 @@ body{
 }
 
 #show {
-    background-color: transparent;
+
     margin-right: 70%;
+    color: black;
     
+}
+
+@media (max-width: 500px) {
+
+    #card {
+        margin-left: 75px;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #show {
+        width: 100%
+    }
 }
